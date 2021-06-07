@@ -13,16 +13,16 @@ section:
 skills:
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
-  summary: "Mise en place de clusters Kubernetes à haute dispo (~80 namespaces en production) depuis +2 ans"
+  summary: "Mise en place d'une plateforme Kubernetes multi provider (AWS EKS & Orange CCE) à haute dispo (~80 namespaces en production) depuis +3 ans"
   url: "https://kubernetes.io/"
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
-  summary: "Travail avec plusieurs cloud provider AWS, GCP, Orange business services, ..."
+  summary: "Travail au quotidien avec plusieurs cloud provider AWS, GCP, Orange business services"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Accompagnement des équipes sur de la transformation container des applications"
+  summary: "Accompagnement des équipes sur de la transformation container des applications tout en appliquant des bonnes pratiques de sécurisations & consommations CPU/Memory"
   url: "https://www.docker.com/"
 
 - name: Python
@@ -34,16 +34,15 @@ skills:
   logo: /images/sections/skills/linux.png
   summary: "Utilisation comme système d'exploitation principal. Capable d'écrire des scripts bash/shell."
 
-- name: Git
+- name: Production
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Mise en place de solution de monitoring (Prometheus, Grafana, Loki, Datadog), d'alerting (PagerDuty) de production, suivi des performances et optimisation des coûts liés aux services consommées (FinOps)"
   url: "https://git-scm.com/"
 
-- name: Formateur
+- name: Formation des collaborateurs
   logo: /images/sections/skills/c++.png
-  summary: "Formation&Accompagnement des développeurs vers le concept DevOps"
+  summary: "Formation et accompagnement des développeurs vers les différents concepts (Infra as code, Continuous delivry)"
 
 - name: Automatisation & IAC
   logo: /images/sections/skills/c++.png
-  summary: "Mise en place de processus d’intégration continue (Jenkins, Gitlab, Bitbucket, GitHub, CircleCi, Ansible, Terraform, Cloudformation…)
-"
+  summary: "Automatisation de process permettant de réduire la dette technique et d’assurer des mises en production sereinement (SonarQube, SOAPui, Dashing.io, tests de non régressions, rapports lighthouse, rapport de mep, rapport de performance, rapports de logs d’erreurs & slow queries SQL)"

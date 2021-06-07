@@ -18,7 +18,7 @@ company:
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: "Passionné par la tech depuis mon enfance, j'ai appris à être polyvalent (Kubernetes, Cloud, Automatisation, IAC, Python). \n\n Je pratique le concept DevOps depuis bientôt 8 ans, à savoir, apporter des outils aux développeurs afin des les autonomiser mais aussi de faciliter leurs appréhensions de leurs environnements de production. \n\nRécemment, j'ai construis une couche d'abstraction en Python permettant de faciliter et de d'organiser le déploiement de ressources [Kubernetes](https://kubernetes.io/)"
+summary: "Passionné par la tech depuis mon enfance, j'ai appris à être polyvalent (Kubernetes, Cloud, Automatisation, IAC, Python). \n\n Je pratique le concept DevOps depuis bientôt 8 ans, à savoir, apporter des outils aux développeurs afin des les autonomiser et de faciliter leurs appréhensions de la production. \n\nRécemment, j'ai construis une couche d'abstraction en Python permettant de faciliter et d'organiser le déploiement de ressources [Kubernetes](https://kubernetes.io/)"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
