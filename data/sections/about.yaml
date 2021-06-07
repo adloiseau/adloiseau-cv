@@ -18,7 +18,7 @@ company:
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: "Passionné par la tech depuis mon enfance, j'ai appris à être polyvalent sur les différentes technologies autour du Web (Kubernetes, Cloud, Automatisation, IAC). \n\n Je pratique le concept DevOps depuis bientôt 8 ans, mon but est simple, apporter des outils aux développeurs afin des les autonomiser mais aussi de faciliter leurs appréhensions de leur environnement de production. \n\nRécemment j'ai construis une couche d'abstraction en Python permettant de faciliter et de cadrer le déploiement de ressources [Kubernetes](https://kubernetes.io/)"
+summary: "Passionné par la tech depuis mon enfance, j'ai appris à être polyvalent (Kubernetes, Cloud, Automatisation, IAC, Python). \n\n Je pratique le concept DevOps depuis bientôt 8 ans, à savoir, apporter des outils aux développeurs afin des les autonomiser mais aussi de faciliter leurs appréhensions de leurs environnements de production. \n\nRécemment, j'ai construis une couche d'abstraction en Python permettant de faciliter et de d'organiser le déploiement de ressources [Kubernetes](https://kubernetes.io/)"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -44,18 +44,18 @@ socialLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+  name: Kubernetes
+  url: "https://kubernetes.io"
   badge: "images/kubernetes.png"
 
 - type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+  name: AWS
+  url: "https://aws.amazon.com"
   badge: "images/aws.png"
 
 - type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
+  name: Python
+  url: "https://www.python.org"
   badge: "images/python.jpeg"
 
 - type: soft-skill-indicator
@@ -72,9 +72,3 @@ badges:
   name: Communication
   percentage: 90
   color: orange
-
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"

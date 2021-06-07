@@ -13,37 +13,37 @@ section:
 skills:
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Mise en place de clusters Kubernetes à haute dispo (~80 namespaces en production) depuis +2 ans"
   url: "https://kubernetes.io/"
-
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: "Travail avec plusieurs cloud provider AWS, GCP, Orange business services, ..."
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  summary: "Accompagnement des équipes sur de la transformation container des applications"
   url: "https://www.docker.com/"
 
-- name: Prometheus
+- name: Python
   logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  summary: "Développement de couche d’abstraction afin de faciliter et homogénéiser les processus d'intégration continue (Infra/App) que ce soit pour de l’infrastructure AWS mais aussi pour du déploiement d’application au sein de Kubernetes"
   url: "https://prometheus.io/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: "Utilisation comme système d'exploitation principal. Capable d'écrire des scripts bash/shell."
 
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
   url: "https://git-scm.com/"
 
-- name: C++
+- name: Formateur
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  summary: "Formation&Accompagnement des développeurs vers le concept DevOps"
+
+- name: Automatisation & IAC
+  logo: /images/sections/skills/c++.png
+  summary: "Mise en place de processus d’intégration continue (Jenkins, Gitlab, Bitbucket, GitHub, CircleCi, Ansible, Terraform, Cloudformation…)
+"

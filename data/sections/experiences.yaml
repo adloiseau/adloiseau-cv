@@ -11,54 +11,94 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Budget Insight
+    url: "https://www.budget-insight.com"
+    location: Paris
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    #overview: Expertise immobilière
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: DevOps SRE
+    start: Septembre 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Etre force de proposition concernant la mise en place et la conception de l’architecture kubernetes
+    - Accompagner les membres de l’équipe dans leur montée en compétences sur ces sujets
+    - Faire les publications et la mise en production de ces logiciels
+    - S’assurer que nos logiciels fonctionnent correctement et de manière efficace
+    - Qualifier et répondre aux demandes urgentes des Account manager/Product manager
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Groupe SeLoger
+    url: "https://www.groupeseloger.com"
+    location: Paris
+    # company overview
+    #overview: Expertise immobilière
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: DevOps - AWS, Orange Cloud, Kubernetes
+    start: Octobre 2020
+    end: Août 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Migration de l’infrastructure du provider Orange vers AWS
+    - Accompagnement DevOps sur la transformation en container (Docker)
+    - Mise en place de cluster Kubernetes à haute dispo (~ 70 namespaces en production) avec forte volumétrie
+    - Développement d’un outil en CLI (python) offrant une couche d’abstraction permettant de simplifier les déploiements sur Kubernetes à travers un processus automatisé permettant d’assurer une pérennité sur le lifecycle des ressources déployées.
+    - Transformation CI/CD applicative vers une solution SAAS CircleCI
+    - Développement d’un outil en CLI offrant une couche d’abstraction pour déployer des stacks (Apps/Infra) sur AWS à travers des templates CloudFormation (YAML).
+    - Introduction du concept FinOps afin d'optimiser les coûts
+    - Formation des développeurs sur les concepts CICD, IAC, Container
+    - Mise en place d’un socle IAC DataDog/PagerDuty (alerting & process d’astreintes) sur Terraform afin de faciliter l’onboarding des équipes
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Concept-multimedia - Logic-immo.com
+    url: "https://www.logic-immo.com"
+    location: Paris
+    # company overview
+    #overview: Expertise immobilière
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: DevOps - Orange Cloud, Kubernetes
+    start: Juillet 2017
+    end: Octobre 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Mise en place de cluster Kubernetes à haute dispo (~ 70 namespaces en production) avec forte volumétrie
+    - Homogénéisation de l’ensemble des processus de déploiement sur un seul et même socle afin de faciliter et de fluidifier les mises en production
+    - Mise en place de chaîne d’intégration continue pour automatiser les déploiements (Jira, BitBucket, Jenkins, Ansible, Python)
+    - Développement d’outils en Python (Tests de charge, Crawler,, rapports de mise en production, tests lighthouse, tests de non régression, rapports de performance, rapports d’erreurs, slow queries)
+    - Migration d’un datacenter vers du Cloud (Orange - Flexible Engine)
+    - Mise en place d’outils DevOps (SonarQube, Dashboard interne sur dashing.io)
+    - Accompagnement des développeurs sur les bonnes pratiques de stabilisation de notre production
+    - Suivi de charge, rapport de performances, documentations
+    - Documentation sur les bonnes pratiques (Gestion Workflow GIT, Process CI/CD, )
+    - Référent DevOps pour l’équipe de développeur
+
+- company:
+    name: NextRadioTV - BFMTv
+    url: "https://www.groupeseloger.com"
+    location: Paris
+    # company overview
+    #overview: Expertise immobilière
+  positions:
+  - designation: DevOps - OVH
+    start: Juin 2014
+    end: Juin 2017
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Mise en place de chaîne d’intégration continue pour automatiser les déploiements sur les environnements de Recette, Pré-production & Production ( Jira, GitLab, Jenkins )
+    - Développement d’outils en Python (Tests de charge, Crawler, synchronisation fork/repositories GIT)
+    - Optimisation & Gestion du cache NGINX, génération de contenu statique à la volée
+    - Mise en place d’outils DevOps (SonarQube, DashBoard)
+    - Définition des normes de développement, contrôle de qualité de code
+    - Définition des normes de journalisation ( Logger ) en fonction des environnements (Local, Recette, Pré-production, Production)
+    - Documentation sur les bonnes pratiques (PHPStorm, Gestion GIT, Qualité de code, Logger, Workflow GIT)
+    - Développement d’un outil d’envoi de notifications (APNS / GCM) pour l’ensemble de nos applications mobiles (BFMTv, BFMParis, RMC, RMCSport, BFMBusiness, 01Net)
+    - Gestion des problématiques liées à une forte volumétrie (Slow queries PHP/SQL)
+    - Référent technique pour l’équipe de développeur
