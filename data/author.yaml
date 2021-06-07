@@ -1,7 +1,7 @@
 # some information about you
 name: "Adrien Loiseau"
 nickname: ""
-image: "images/photo.jpeg"
+image: "images/author/adrien.jpeg"
 
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: ""
