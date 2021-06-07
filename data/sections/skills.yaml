@@ -13,36 +13,36 @@ section:
 skills:
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
-  summary: "Mise en place d'une plateforme Kubernetes multi provider (AWS EKS & Orange CCE) à haute dispo (~80 namespaces en production) depuis +3 ans"
+  summary: "Mise en place de plateformes Kubernetes multi provider (AWS EKS & Orange CCE) à haute dispo (~80 namespaces en production) depuis +3 ans"
   url: "https://kubernetes.io/"
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
-  summary: "Travail au quotidien avec plusieurs cloud provider AWS, GCP, Orange business services"
+  summary: "Travail quotidien avec plusieurs cloud provider AWS, GCP, Orange business services"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Accompagnement des équipes sur de la transformation container des applications tout en appliquant des bonnes pratiques de sécurisations & consommations CPU/Memory"
+  summary: "Accompagnement des équipes sur de la transformation container des applications tout en appliquant des bonnes pratiques de sécurisations & consommations CPU/Memory afin d'assurer de la scalabilitée et de la sécuritée en production"
   url: "https://www.docker.com/"
 
 - name: Python
-  logo: /images/sections/skills/prometheus.png
+  logo: /images/sections/skills/python.png
   summary: "Développement de couche d’abstraction afin de faciliter et homogénéiser les processus d'intégration continue (Infra/App) que ce soit pour de l’infrastructure AWS mais aussi pour du déploiement d’application au sein de Kubernetes"
   url: "https://prometheus.io/"
+
+- name: Suivi de production
+  logo: /images/sections/skills/finops.png
+  summary: "Mise en place de solution de monitoring (Prometheus, Grafana, Loki, Datadog), d'alerting (PagerDuty) de production, suivi des performances et optimisation des coûts liés aux services consommés (FinOps)"
+  url: "https://git-scm.com/"
+
+- name: Automatisation & IAC
+  logo: /images/sections/skills/iac.png
+  summary: "Automatisation de process permettant de réduire la dette technique et d’assurer des mises en production sereinement (SonarQube, SOAPui, Dashing.io, tests de non régressions, rapports lighthouse, rapport de mep, rapport de performance, rapports de logs d’erreurs & slow queries SQL)"
+
+- name: Formation des collaborateurs
+  logo: /images/sections/skills/devops.jpeg
+  summary: "Formation et accompagnement des développeurs vers les différents concepts (Infra as code, Continuous delivry, DevOps)"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
   summary: "Utilisation comme système d'exploitation principal. Capable d'écrire des scripts bash/shell."
-
-- name: Production
-  logo: /images/sections/skills/git.png
-  summary: "Mise en place de solution de monitoring (Prometheus, Grafana, Loki, Datadog), d'alerting (PagerDuty) de production, suivi des performances et optimisation des coûts liés aux services consommées (FinOps)"
-  url: "https://git-scm.com/"
-
-- name: Formation des collaborateurs
-  logo: /images/sections/skills/c++.png
-  summary: "Formation et accompagnement des développeurs vers les différents concepts (Infra as code, Continuous delivry)"
-
-- name: Automatisation & IAC
-  logo: /images/sections/skills/c++.png
-  summary: "Automatisation de process permettant de réduire la dette technique et d’assurer des mises en production sereinement (SonarQube, SOAPui, Dashing.io, tests de non régressions, rapports lighthouse, rapport de mep, rapport de performance, rapports de logs d’erreurs & slow queries SQL)"

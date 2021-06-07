@@ -102,3 +102,44 @@ experiences:
     - Développement d’un outil d’envoi de notifications (APNS / GCM) pour l’ensemble de nos applications mobiles (BFMTv, BFMParis, RMC, RMCSport, BFMBusiness, 01Net)
     - Gestion des problématiques liées à une forte volumétrie (Slow queries PHP/SQL)
     - Référent technique pour l’équipe de développeur
+
+- company:
+    name: Econocom
+    url: "https://www.econocom.com/fr"
+    location: Paris
+    # company overview
+    #overview: Expertise immobilière
+  positions:
+  - designation: Ingénieur d'études et développement
+    start: Novembre 2010
+    end: Juin 2014
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Ministère du budget
+    - Eurotitrisation
+    - SFR
+    - Ministère de la santé
+    - Eiffage
+    - Kaufman & Broad
+    - Musée du quai Branly
+
+- company:
+    name: Malakoff Médéric
+    url: "https://www.malakoffhumanis.com"
+    location: Paris
+    # company overview
+    #overview: Expertise immobilière
+  positions:
+  - designation: Analyste Programmeur
+    start: Septembre 2008
+    end: Septembre 2010
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Java
+    - Cobol
+    - Pacbase
+    - Oracle & SQL

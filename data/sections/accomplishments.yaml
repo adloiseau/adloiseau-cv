@@ -1,0 +1,47 @@
+# section information
+section:
+  name: Formations
+  id: accomplishments
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: AWS Architecting formation
+  timeline: "Septembre 2020"
+  organization:
+    name: D2SI
+    url: https://revolve.team
+  courseOverview: Formation architecting avancée sur AWS
+
+- name: AWS Re:invent
+  timeline: "Décembre 2019"
+  organization:
+    name: Reinvent
+    url: https://reinvent.awsevents.com
+  courseOverview: "Partication au re:Invent AWS à Las Vegas afin d'approfondir les différents services proposés (Kubernetes, IA, IAC, managed services)"
+
+- name: GKE formation
+  timeline: "Janvier 2016"
+  organization:
+    name: Google
+    url: https://cloud.google.com
+  courseOverview: Formation avancée sur GKE dans les locaux de google cloud à Paris.re
+
+- name: PHP Zend framework & Doctrine
+  timeline: "Juin 2010"
+  organization:
+    name: Php
+    url: https://www.php.net
+  courseOverview: Formation programmation orientée objet, zf 2, javascript, ajax & doctrine (MySQL/PgSQL)
+
+- name: Pacbase & Cobol
+  timeline: "Mars 2008"
+  organization:
+    name: Udemy
+    url: https://www.udemy.com
+  courseOverview: Formation programmation Cobol & Pacbase
