@@ -35,8 +35,8 @@ enableEmoji: true
 params:
 
   # GitHub repo URL and branch of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
-  gitBranch: main
+  gitRepo: https://github.com/adloiseau/adloiseau-cv
+  gitBranch: master
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: false
